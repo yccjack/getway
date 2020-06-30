@@ -22,3 +22,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://gschaos.club:8761/eureka/
+time:
+  cron:
+    start: "6"
+    stop: "14"

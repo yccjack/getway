@@ -1,11 +1,7 @@
 package com.ycc.getway;
 
-import com.ycc.getway.filter.RequestTimeFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.gateway.route.RouteLocator;
-import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class GetwayApplication {
@@ -51,5 +47,8 @@ public class GetwayApplication {
 //                .build();
 //        // @formatter:on
 //    }
+
+
+
 
 }
